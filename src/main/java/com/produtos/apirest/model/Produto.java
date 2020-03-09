@@ -19,6 +19,8 @@ public class Produto implements Serializable {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 
+	private String nome;
+
 	private BigDecimal quantidade;
 
 	private BigDecimal valor;
@@ -35,6 +37,20 @@ public class Produto implements Serializable {
 	 */
 	public void setId(long id) {
 		this.id = id;
+	}
+
+	/**
+	 * @return the nome
+	 */
+	public String getNome() {
+		return nome;
+	}
+
+	/**
+	 * @param nome the nome to set
+	 */
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	/**
