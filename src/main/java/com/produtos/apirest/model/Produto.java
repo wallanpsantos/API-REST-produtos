@@ -87,5 +87,4 @@ public class Produto implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-
 }
