@@ -1,16 +1,11 @@
 package com.produtos.apirest.model;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 @Entity
-@Table(name = "TB_PRODUTO")
+@Table(name="TB_PRODUTO")
 public class Produto implements Serializable {
 
 	private static final long serialVersionUID = 1L;
